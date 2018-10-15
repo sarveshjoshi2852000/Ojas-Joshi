@@ -13,16 +13,20 @@ while 1:
         choice1=["DairyMilk","Hersheys","Nutella","Kitkat","Gems"]
         choice2=choicebox(msg1,title1,choice1)
      elif str(choice)=="BISCUITS":
-        msg2="Which biscuits do you want?"
-        title2="BISCUITS"
-        choice3=["ParleG","Hide and Seek","Bourbon","Monaco","Marie"]
-        choice4=choicebox(msg2,title2,choice3)
+         msg2="Which biscuits do you want?"
+         title2="BISCUITS"
+         choice3=["ParleG","Hide and Seek","Bourbon","Monaco","Marie"]
+         choice4=choicebox(msg2,title2,choice3)
      elif str(choice)=="SOAPS":
-        msg3="Which SOAPS  do you want?"
-        title3="SOAPS"
-        choice5=["ParleG","Hide and Seek","Bourbon","Monaco","Marie"]
-        choice6=choicebox(msg3,title3,choice5)
-
+         msg3="Which soaps do you want?"
+         title3="SOAPS"
+         choice5=["ParleG","Hide and Seek","Bourbon","Monaco","Marie"]
+         choice6=choicebox(msg3,title3,choice5)
+     elif str(choice)=="CLOTHS":
+         msg4="Which brand do you want?"
+         title4="CLOTHS"
+         choice7=["US POLO","CottonKing","Blackberry","Levis","Peter England"]
+         choice8=choicebox(msg4,title4,choice7)
      else:
-         sys.exit()
+          sys.exit()
      
